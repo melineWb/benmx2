@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'CoreSansMSC47_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('CoreSansMSC47_Regular'),
+    url('../fonts/Core Sans M SC 47 Cn Regular.otf')  format('opentype'),;
+}
+
+@font-face {
+    font-family: 'CoreSansM45_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('CoreSansM45_Regular'),
+    url('../fonts/Core Sans M 45 Regular.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'FuturaNewHeavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FuturaNewHeavy'),
+    url('../fonts/FuturaNewHeavy.otf')  format('opentype');
+}
+
+@font-face {
+    font-family: 'PTSansPro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PTSansPro'),
+    url('../fonts/PT Sans Pro.otf')  format('opentype');
+}

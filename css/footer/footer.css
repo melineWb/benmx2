@@ -1,0 +1,240 @@
+/*#footer*/
+/*{*/
+/*height:random;*/
+/*margin-top:- #footer:height;*/
+/*}*/
+
+#footer
+{
+    background: #705399;
+    height: auto;
+    position: relative;
+}
+.footerTop
+{
+    /*height: 148px;*/
+}
+.footerBottom{
+    /*height: 130px;*/
+}
+
+.footerBottomSocialsBlockLeftElementLink > i.fa:hover, .footerBottomSocialsBlockRightElementLink > i.fa:hover{
+    color: #39126d;
+}
+
+@media screen and (min-width: 480px)
+{
+
+}
+@media screen and (min-width: 640px)
+{
+
+}
+@media screen and (min-width: 768px)
+{
+
+}
+@media screen and (min-width: 1024px)
+{
+    #footer
+    {
+        background:url(../../img/footer-background.png) no-repeat center center #705399;
+        height: 278px;
+        margin-top: -278px;
+    }
+    .push
+    {
+        padding-bottom: 278px;
+        width: 100%;
+    }
+    .footerTop
+    {
+        height: 148px;
+        width: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        font-family: CoreSansM45_Regular, Arial, Helvetica, sans-serif;
+    }
+    .footerBottom{
+        height: 130px;
+        width: 100%;
+        font-family: CoreSansM45_Regular, Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    ul.footerTopContacts
+    {
+        width: 460px;
+        overflow: hidden;
+        padding: 0 20px 0 0;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    ul.footerTopContacts li
+    {
+        display: inline-block;
+        font-size: 0.9375em;
+        line-height: 2.75em;
+        padding: 0px 23px;
+
+    }
+    ul.footerTopContacts li:first-child{
+        padding-right:34px;
+        border-right: 1px solid #38146a;
+    }
+    ul.footerTopContacts li a > p,
+    ul.footerTopContacts li a > img
+    {
+        display: inline-block;
+        vertical-align: middle;
+        color: #ffffff;
+        -webkit-transition: color 0.3s;
+        -moz-transition: color 0.3s;
+        -ms-transition: color 0.3s;
+        -o-transition: color 0.3s;
+        transition: color 0.3s;
+    }
+    ul.footerTopContacts li a > img{
+        padding-right:10px;
+    }
+    ul.footerTopContacts li a:hover > p{
+        color: #38136d;
+    }
+
+    nav.footerNavigation
+    {
+        width: 460px;
+        overflow: hidden;
+        padding: 0 0 0 20px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    ul.footerNavigationList
+    {
+        width: 100%;
+    }
+
+    li.footerNavigationListElement
+    {
+        text-align: left;
+        display:inline-block;
+        width: 200px;
+        float: left;
+        vertical-align: middle;
+        padding: 10px 0;
+        font-size: 0.9375em;
+    }
+
+    li.footerNavigationListElement:nth-child(3n+2){
+        width: 160px;
+    }
+    li.footerNavigationListElement:nth-child(3n){
+        width: auto;
+    }
+
+    a.footerNavigationListElementAnchor
+    {
+        color:#fffefe;
+        font-size:1em;
+        -webkit-transition: color 300ms;
+        -moz-transition: color 300ms;
+        -ms-transition: color 300ms;
+        -o-transition: color 300ms;
+        transition: color 300ms;
+    }
+    a.footerNavigationListElementAnchor:hover
+    {
+        color:#38146a;
+    }
+    .footerBottomSocialsBlock
+    {
+        width: 340px;
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    .footerBottomSocialsBlockLeft,
+    .footerBottomSocialsBlockRight
+    {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    .footerBottomSocialsBlockLeftElement,
+    .footerBottomSocialsBlockRightElement
+    {
+        display: table-cell;
+        padding: 25px 20px;
+
+    }
+    .footerBottomSocialsBlockLeftElement a,
+    .footerBottomSocialsBlockRightElement a
+    {
+        color: #ffffff;
+        font-size: 1.5em;
+    }
+    .footerSlideUpButtonBlock
+    {		
+		
+        height: 130px;
+        width: 72px;
+        display: inline-block;
+        vertical-align: bottom;
+		position:relative;
+        /*background: #543185;*/
+    }
+    .footerSlideUpButton
+    {
+        /*background: url(/img/footer-button.png);*/
+		cursor:pointer;
+        height: 70px;
+        font-size: 2em;
+        width: 72px;
+        color: #ffffff;
+        display: block;
+        vertical-align: bottom;
+		position:relative;
+		z-index:20;
+    }
+	.footerSlideUpButtonBlock div img{
+		display:block;
+		position:relative;
+		z-index:2;
+	}
+	
+	.hiddenFooterArrows{
+		 opacity:0;
+	}
+	
+	.footerSlideUpButtonArrowFirst{
+          /*background: url(/img/footer-button-arrow1.png);*/
+         height: 23px;
+		 width: 72px;
+     }
+    .footerSlideUpButtonArrowSecond{
+         /*background: url(/img/footer-button-arrow2.png);*/
+        height: 19px;
+        width: 72px;
+    }
+    .footerSlideUpButtonArrowThird{
+        /*background: url(/img/footer-button-arrow3.png);*/
+        height: 19px;
+        width: 72px;
+    }
+
+    #footer > section > .contentBlock{
+        display: inline-block;
+    }
+    
+}
+@media screen and (min-width: 1366px)
+{
+
+}
+@media screen and (min-width: 1600px)
+{
+
+}
+@media screen and (min-width: 1920px)
+{
+
+}

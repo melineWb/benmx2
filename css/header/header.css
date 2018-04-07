@@ -1,0 +1,198 @@
+#header
+{
+    padding: 35px 0 10px;
+    height: 65px;
+    width: 100%;
+}
+#header.commingSoon
+{
+    position: fixed;
+    z-index: 1000;
+    background: rgba(134,99,165,0.35);
+}
+#header .contentBlock
+{
+    vertical-align: middle;
+}
+/*------------- TOP-LOGO-BLOCK*/
+#header .logo
+{
+    display: block;
+    float: left;
+    margin-left: 15%;
+    width: 220px;
+    height: 65px;
+    padding: 0;
+    text-align: left;
+}
+#header .logo img
+{
+    display: block;
+}
+
+
+/*--------------  HEADER-rightSideeBlock -----------------*/
+/*.header-rightSideeBlock*/
+/*{*/
+    /*float: right;*/
+    /*display: block;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*text-align: right;*/
+    /*width: 740px;*/
+
+/*}*/
+
+.header-rightSideeBlock {
+    float: right;
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    width: 65%;
+}
+.header-rightSideeBlock.commingSoon
+{
+    padding: 20px 0;
+}
+/*---------------- TOP-NAV-BLOCK ------------------*/
+#header .navigation
+{
+    display: inline-block;
+    margin: 0 -4px 4px;
+    position: relative;
+    vertical-align: top;
+}
+#header .navigation .toggleNavBlock,
+#header .navigation .navList
+{
+    display: block;
+    text-align: right;
+    float: left;
+}
+#header .navigation .toggleNavBlock
+{
+    cursor: pointer;
+}
+#header .navigation .toggleNavBlock:hover p,
+#header .navigation .toggleNavBlock:hover i
+{
+    color: #705399;
+    transition: color 500ms;
+}
+#header .navigation .navList
+{
+    display: none;
+    width: 720px;
+    opacity: 0;
+}
+#header .navigation .toggleNavBlock p,
+#header .navigation .toggleNavBlock-index
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+}
+#header .navigation .toggleNavBlock p
+{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+#header .navigation .toggleNavBlock p.close
+{
+    border-right: 2px solid #ffffff;
+}
+#header .navigation .toggleNavBlock-index
+{
+    color: #8663a5;
+    font-size: 24px;
+    width: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#header .navigation .navList-element
+{
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 7px 0 7px;
+}
+#header .navigation .navList-element a
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #705399;
+}
+#header .navigation .navList-element a.current,
+#header .navigation .navList-element a:hover
+{
+    color: #ffffff;
+    transition: color 500ms;
+}
+#header .navigation .navList-element a p
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*-------------- TOP-LANG-BLOCK ------------------*/
+#header .langBlock
+{
+    display: inline-block;
+    position: relative;
+    margin-right: 100px;
+}
+#header .langList
+{
+    display: block;
+    float: right;
+    position: relative;
+    z-index: 999;
+}
+#header .langList li a
+{
+    color: #ffffff;
+    font-size: 14px;
+    width: 44px;
+    padding: 5px 0;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+	text-shadow: 0 0 2px #000;
+}
+#header .langList li:last-child a
+{
+    border-bottom: none;
+}
+#header .langList li a.current
+{
+    border: 1px solid #ffffff;
+    width: 42px;
+    display: block;
+}
+#header .langList li a:hover
+{
+    color: #281246;
+	text-shadow: 0 0 0px #000;
+}
+#header .langList li a.current:hover
+{
+    color: #ffffff;
+}
+
+.langBlock{
+    /*opacity: 1 !important;*/
+    /*display: inline-block !important;*/
+    /*right: -45px !important;*/
+    /*position: absolute !important;*/
+}

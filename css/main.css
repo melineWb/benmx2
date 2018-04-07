@@ -1,0 +1,98 @@
+/*Imports*/
+@import url('header/header.css');
+@import url('middle/middle.css');
+@import url('footer/footer.css');
+@import url('fonts.css');
+/*Imports*/
+
+
+
+html,
+body,
+#wrapper
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    font-family: PTSansPro, Arial, sans-serif;
+    font-size: 16px;
+    background: #4c3371;
+}
+
+#wrap { height: 100%; }
+body > #wrap {height: auto; min-height: 100%;
+    position: relative;}
+/*.push*/
+/*{*/
+    /*padding: 20px 0 0;*/
+/*}*/
+section
+{
+    width: 100%;
+    /*overflow: hidden;*/
+    text-align: center;
+    display: inline-block;
+    margin:0 auto -4px;
+}
+#header > .contentBlock
+{
+    /*width: 960px;*/
+    width: 100%;
+    display: inline-block;
+    margin:0 auto -4px;
+	position:relative;
+}
+
+#main{
+    /*height:2000px;*/
+    width:100%;
+    background: #191919;
+    position: relative;
+}
+
+h1
+{
+    font-size: 62px;
+    font-family: FuturaNewHeavy, sans-serif;
+    text-transform: uppercase;
+}
+h2
+{
+    font-size: 50px;
+    font-family: FuturaNewHeavy, sans-serif;
+    text-transform: uppercase;
+}
+h3
+{
+    font-size: 35px;
+    font-family: CoreSansMSC47_Regular, sans-serif;
+}
+.w50
+{
+    width: 50%;
+}
+
+/*.navigation{*/
+    /*width: 840px; right: -200px;*/
+/*}*/
+
+.darkh{
+    color: #705298;
+}
+
+@media screen and (min-width:480px){}
+@media screen and (min-width:640px){}
+@media screen and (min-width:768px){}
+@media screen and (min-width:1024px){}
+@media screen and (max-width:1365px){
+    #header .navigation{
+        right: 0 !important;
+    }
+}
+@media screen and (min-width:1600px){}
+@media screen and (min-width:1920px){}
+
